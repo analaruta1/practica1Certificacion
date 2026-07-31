@@ -4,8 +4,7 @@
 El programa solicita al usuario la longitud de los tres lados de un triángulo ($A$, $B$ y $C$) y realiza las siguientes validaciones y clasificaciones:
 
 - **Validación del Triángulo:** Comprueba la condición de que la suma de dos lados siempre sea mayor que el tercer lado:
-  $$(A + B > C) \quad 	ext{y} \quad (A + C > B) \quad 	ext{y} \quad (B + C > A)$$
-- **Equilátero:** Los 3 lados son exactamente iguales ($A = B = C$).
+- **Equilátero:** Los 3 lados son exactamente iguales.
 - **Isósceles:** Tiene 2 lados iguales y 1 diferente.
 - **Escaleno:** Los 3 lados tienen longitudes distintas.
 
@@ -25,12 +24,10 @@ Para ejecutar esta aplicación, tu computadora requiere:
 ## Instalación y Librerías
 
 ### Requisito Principal: Python
-El programa está escrito en **Python 3**. No requiere la instalación de librerías externas o de terceros (como `numpy`, `pandas`, etc.), ya que utiliza únicamente funciones nativas (`input()`, `print()`, `float()`).
+El programa está escrito en **Python 3**. No requiere la instalación de librerías externas o de terceros.
 
 - **Versión de Python recomendada:** Python 3.6 o superior.
 - **Descarga:** [python.org/downloads](https://www.python.org/downloads/)
-
-> **Nota para usuarios de Windows:** Al instalar Python, asegúrate de marcar la casilla **"Add Python to PATH"**.
 
 ---
 
@@ -60,7 +57,7 @@ Ejecuta el script corriendo el siguiente comando:
 
 ---
 
-## 🧪 Ejemplos de Uso
+## Ejemplos de Uso
 
 ### Ejemplo 1: Triángulo Equilátero
 ```text
